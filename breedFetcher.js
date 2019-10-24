@@ -16,7 +16,5 @@ request(url, (error, response, body) => {
     } else {
       console.log(data[0].description);
     }
-    // const data = JSON.parse(body);
-    // console.log(data[0].description);
   }
 });
